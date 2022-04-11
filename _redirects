@@ -1,0 +1,4 @@
+# @prismicio/client
+/client                https://github.com/prismicio/prismic-client
+/client/:slug          https://github.com/prismicio/prismic-client/blob/master/:slug.md
+/client/:slug ver=:ver https://github.com/prismicio/prismic-client/blob/v:ver/:slug.md
