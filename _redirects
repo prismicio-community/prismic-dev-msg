@@ -1,4 +1,4 @@
 # @prismicio/client
-/client/:slug ver=:ver https://github.com/prismicio/prismic-client/blob/v:ver/messages/:slug.md 302
+/client/:version/:slug https://github.com/prismicio/prismic-client/blob/:version/messages/:slug.md 302
 /client/:slug          https://github.com/prismicio/prismic-client/blob/master/messages/:slug.md 302
 /client                https://github.com/prismicio/prismic-client 302
