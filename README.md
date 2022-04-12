@@ -91,5 +91,5 @@ For more clarity on this project and its structure you can also check out the de
 [github-actions-ci-href]: https://github.com/prismicio/prismic-dev-msg/actions?query=workflow%3Aci
 [conventional-commits-src]: https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg
 [conventional-commits-href]: https://conventionalcommits.org
-[license-src]: https://img.shields.io/npm/l/prismic-dev-msg.svg
-[license-href]: https://npmjs.com/package/prismic-dev-msg
+[license-src]: https://img.shields.io/badge/license-Apache--2.0-green
+[license-href]: https://github.com/prismicio/prismic-dev-msg
