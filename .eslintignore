@@ -1,7 +1,8 @@
+# .gitignore copy
+
 # custom
 dist
 examples/**/package-lock.json
-.netlify
 
 # os
 .DS_Store

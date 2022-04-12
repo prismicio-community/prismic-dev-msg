@@ -1,0 +1,3 @@
+# These redirects will be **appended** to the final _redirects file.
+
+/ https://prismic.io 302
