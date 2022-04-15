@@ -19,13 +19,13 @@ async function main() {
 			`/msg/${repo.name}/v:version/:slug https://github.com/${repo.repo}/blob/v:version/messages/:slug.md 302`,
 		);
 		redirects.push(
-			`/msg/${repo.name}/v:version https://github.com/${repo.repo}/tree/v:version/messages 302`,
+			`/msg/${repo.name}/v:version https://github.com/${repo.repo}/blob/v:version/messages 302`,
 		);
 		redirects.push(
 			`/msg/${repo.name}/:slug https://github.com/${repo.repo}/blob/HEAD/messages/:slug.md 302`,
 		);
 		redirects.push(
-			`/msg/${repo.name} https://github.com/${repo.repo}/tree/HEAD/messages 302`,
+			`/msg/${repo.name} https://github.com/${repo.repo}/blob/HEAD/messages 302`,
 		);
 
 		redirects.push("");
