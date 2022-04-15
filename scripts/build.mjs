@@ -11,8 +11,6 @@ async function main() {
 	const redirects = [];
 
 	for (const repo of repos) {
-		const branch = repo.branch || "main";
-
 		if (repo.description) {
 			redirects.push(`# ${repo.description}`);
 		}
@@ -24,10 +22,10 @@ async function main() {
 			`/msg/${repo.name}/v:version https://github.com/${repo.repo}/tree/v:version/messages 302`,
 		);
 		redirects.push(
-			`/${repo.name}/:slug https://github.com/${repo.repo}/blob/${branch}/messages/:slug.md 302`,
+			`/msg/${repo.name}/:slug https://github.com/${repo.repo}/blob/HEAD/messages/:slug.md 302`,
 		);
 		redirects.push(
-			`/${repo.name} https://github.com/${repo.repo}/blob/${branch}/messages 302`,
+			`/msg/${repo.name} https://github.com/${repo.repo}/tree/HEAD/messages 302`,
 		);
 
 		redirects.push("");

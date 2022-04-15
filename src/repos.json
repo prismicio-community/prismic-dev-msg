@@ -2,97 +2,81 @@
 	{
 		"description": "@prismicio/client",
 		"name": "client",
-		"repo": "prismicio/prismic-client",
-		"branch": "master"
+		"repo": "prismicio/prismic-client"
 	},
 	{
 		"description": "@prismicio/helpers",
 		"name": "helpers",
-		"repo": "prismicio/prismic-helpers",
-		"branch": "master"
+		"repo": "prismicio/prismic-helpers"
 	},
 	{
 		"description": "@prismicio/types",
 		"name": "types",
-		"repo": "prismicio/prismic-types",
-		"branch": "master"
+		"repo": "prismicio/prismic-types"
 	},
 	{
 		"description": "@prismicio/richtext",
 		"name": "richtext",
-		"repo": "prismicio/prismic-richtext",
-		"branch": "master"
+		"repo": "prismicio/prismic-richtext"
 	},
 	{
 		"description": "@prismicio/custom-types-client",
 		"name": "custom-types-client",
-		"repo": "prismicio/prismic-custom-types-client",
-		"branch": "master"
+		"repo": "prismicio/prismic-custom-types-client"
 	},
 	{
 		"description": "@prismicio/react",
 		"name": "react",
-		"repo": "prismicio/prismic-react",
-		"branch": "master"
+		"repo": "prismicio/prismic-react"
 	},
 	{
 		"description": "@prismicio/vue",
 		"name": "vue",
-		"repo": "prismicio/prismic-vue",
-		"branch": "master"
+		"repo": "prismicio/prismic-vue"
 	},
 	{
 		"description": "@prismicio/next",
 		"name": "next",
-		"repo": "prismicio/prismic-next",
-		"branch": "main"
+		"repo": "prismicio/prismic-next"
 	},
 	{
 		"description": "@nuxtjs/prismic",
 		"name": "nuxt",
-		"repo": "nuxt-community/prismic-module",
-		"branch": "master"
+		"repo": "nuxt-community/prismic-module"
 	},
 	{
 		"description": "gatsby-source-prismic",
 		"name": "gatsby",
-		"repo": "prismicio/prismic-gatsby",
-		"branch": "main"
+		"repo": "prismicio/prismic-gatsby"
 	},
 	{
 		"description": "eleventy-plugin-prismic",
 		"name": "helpers",
-		"repo": "prismicio-community/eleventy-plugin-prismic",
-		"branch": "master"
+		"repo": "prismicio-community/eleventy-plugin-prismic"
 	},
 	{
 		"description": "@prismicio/slice-simulator",
 		"name": "slice-simulator",
-		"repo": "prismicio/slice-simulator",
-		"branch": "master"
+		"repo": "prismicio/slice-simulator"
 	},
 	{
 		"description": "apollo-link-prismic",
 		"name": "apollo-link-prismic",
-		"repo": "prismicio/apollo-link-prismic",
-		"branch": "master"
+		"repo": "prismicio/apollo-link-prismic"
 	},
 	{
 		"description": "prismic-ts-codegen",
 		"name": "ts-codegen",
-		"repo": "prismicio/prismic-ts-codegen",
-		"branch": "main"
+		"repo": "prismicio/prismic-ts-codegen"
 	},
 	{
 		"description": "@prismicio/mock",
 		"name": "mock",
-		"repo": "prismicio/prismic-mock",
-		"branch": "main"
+		"repo": "prismicio/prismic-mock"
 	},
 	{
 		"description": "slice-machine",
 		"name": "slicemachine",
-		"repo": "prismicio/slice-machine",
-		"branch": "master"
+		"repo": "prismicio/slice-machine"
 	}
 ]
