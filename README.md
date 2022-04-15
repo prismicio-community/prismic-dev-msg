@@ -16,10 +16,10 @@ It builds a Netlify `_redirects` file to handle redirects like the following:
 
 ```
 https://prismic.dev/msg/client/missing-fetch
- → https://github.com/prismicio/prismic-client/blob/master/messages/missing-fetch.md
+ → https://github.com/prismicio/prismic-client/blob/HEAD/messages/missing-fetch.md
 
 https://prismic.dev/msg/client
- → https://github.com/prismicio/prismic-client/blob/master/messages
+ → https://github.com/prismicio/prismic-client/blob/HEAD/messages
 ```
 
 It also handles versioned messages based on Git tags:
