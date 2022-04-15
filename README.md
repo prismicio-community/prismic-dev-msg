@@ -6,23 +6,11 @@
 
 <!-- TODO: Replacing link to Prismic with [Prismic][prismic] is useful here -->
 
-An extended message delivery facilitator for [Prismic][prismic] packages.
+An extended message delivery facilitator for [Prismic][prismic] packages. It makes providing extended error and warning messages in packages an easy-to-follow and standard process.
 
-### Wait, what? What is this thing?
-
-It makes providing extended error and warning messages in packages an easy-to-follow and standard process.
+## How it works
 
 It builds a Netlify `_redirects` file to handle redirects like the following:
-
-```
-https://prismic.dev/msg/client/missing-fetch
- → https://github.com/prismicio/prismic-client/blob/HEAD/messages/missing-fetch.md
-
-https://prismic.dev/msg/client
- → https://github.com/prismicio/prismic-client/blob/HEAD/messages
-```
-
-It also handles versioned messages based on Git tags:
 
 ```
 https://prismic.dev/msg/client/vX.X.X/missing-fetch
