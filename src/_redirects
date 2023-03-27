@@ -1,4 +1,12 @@
 # These redirects will be **appended** to the final _redirects file.
 
+# Init command documentation callback
+/init/nuxt-2     https://prismic.io/docs/nuxt-setup    302
+/init/next-11-13 https://prismic.io/docs/setup-nextjs  302
+/init/universal  https://prismic.io/docs/slice-machine 302
+
+# Telemetry link in Slice Machine init & UI
+/slice-machine/telemetry https://prismic.io/docs/slice-machine#tracking 302
+
 /msg https://prismic.io 302
 /    https://prismic.io 302
