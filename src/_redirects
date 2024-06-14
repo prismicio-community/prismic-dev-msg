@@ -3,6 +3,7 @@
 # Init command documentation callback
 /init/nuxt-2      https://prismic.io/docs/nuxt-setup     302
 /init/nuxt-3      https://prismic.io/docs/nuxt-3-setup   302
+/init/nuxt        https://prismic.io/docs/nuxt-3-setup   302
 /init/next-11-13  https://prismic.io/docs/setup-nextjs   302
 /init/next        https://prismic.io/docs/setup-nextjs   302
 /init/sveltekit-1 https://prismic.io/docs/svelte-install 302
